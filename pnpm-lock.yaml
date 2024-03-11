@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^0.58.5
     version: 0.58.5(postcss@8.4.35)(rollup@4.12.0)(vite@5.1.4)(webpack@5.90.3)
   '@vee-validate/nuxt':
-    specifier: ^4.12.5
-    version: 4.12.5(rollup@4.12.0)(vue@3.4.21)
+    specifier: ^4.12.6
+    version: 4.12.6(rollup@4.12.0)(vue@3.4.21)
   '@vue-macros/nuxt':
     specifier: ^1.9.21
     version: 1.9.21(@vue-macros/reactivity-transform@0.4.3)(nuxt@3.10.3)(rollup@4.12.0)(typescript@5.4.2)(vite@5.1.4)(vue-tsc@1.8.27)(vue@3.4.21)(webpack@5.90.3)
@@ -3614,12 +3614,12 @@ packages:
       - rollup
     dev: true
 
-  /@vee-validate/nuxt@4.12.5(rollup@4.12.0)(vue@3.4.21):
-    resolution: {integrity: sha512-TlVrc1S1W+o3mjpymSwm6rw/97rNV85+0YuHzohsYyGqxJ/0yDjQuN2MFX9K/uBjsZJV/tzXEpnjjgzJzf8ISA==}
+  /@vee-validate/nuxt@4.12.6(rollup@4.12.0)(vue@3.4.21):
+    resolution: {integrity: sha512-QYz8RDgboLoGRr8J3daB2BQ1eMdBY5XRqtTvieeNhRfSBWweUpjuWRZJx6XqNyT1/K3dEgbrRvR07uTFAK4D0g==}
     dependencies:
       '@nuxt/kit': 3.10.3(rollup@4.12.0)
       local-pkg: 0.5.0
-      vee-validate: 4.12.5(vue@3.4.21)
+      vee-validate: 4.12.6(vue@3.4.21)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -12331,6 +12331,17 @@ packages:
       '@vue/devtools-api': 6.6.1
       type-fest: 4.10.3
       vue: 3.4.21(typescript@5.4.2)
+    dev: false
+
+  /vee-validate@4.12.6(vue@3.4.21):
+    resolution: {integrity: sha512-EKM3YHy8t1miPh30d5X6xOrfG/Ctq0nbN4eMpCK7ezvI6T98/S66vswP+ihL4QqAK/k5KqreWOxof09+JG7N/A==}
+    peerDependencies:
+      vue: ^3.3.11
+    dependencies:
+      '@vue/devtools-api': 6.6.1
+      type-fest: 4.10.3
+      vue: 3.4.21(typescript@5.4.2)
+    dev: true
 
   /vfile-message@3.1.4:
     resolution: {integrity: sha512-fa0Z6P8HUrQN4BZaX05SIVXic+7kE3b05PWAtPuYP9QLHsLKYR7/AlLW3NtOrpXRLeawpDLMsVkmk5DG0NXgWw==}
