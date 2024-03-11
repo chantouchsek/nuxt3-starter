@@ -33,7 +33,7 @@
 		"@pinia/colada": "^0.5.3",
 		"@vee-validate/zod": "^4.12.5",
 		"pinia": "^2.1.7",
-		"vee-validate": "^4.12.5",
+		"vee-validate": "^4.12.6",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
