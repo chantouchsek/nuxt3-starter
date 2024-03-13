@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.0.3",
-		"@commitlint/config-conventional": "^19.0.3",
+		"@commitlint/config-conventional": "^19.1.0",
 		"@date-io/dayjs": "^3.0.0",
 		"@nuxt/fonts": "^0.0.2",
 		"@nuxtjs/color-mode": "^3.3.2",
