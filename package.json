@@ -37,7 +37,7 @@
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.0.3",
+		"@commitlint/cli": "^19.1.0",
 		"@commitlint/config-conventional": "^19.0.3",
 		"@date-io/dayjs": "^3.0.0",
 		"@nuxt/fonts": "^0.0.2",
