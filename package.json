@@ -40,7 +40,7 @@
 		"@commitlint/cli": "^19.0.3",
 		"@commitlint/config-conventional": "^19.0.3",
 		"@date-io/dayjs": "^3.0.0",
-		"@nuxt/fonts": "^0.0.2",
+		"@nuxt/fonts": "^0.3.0",
 		"@nuxtjs/color-mode": "^3.3.2",
 		"@nuxtjs/i18n": "^8.1.1",
 		"@nuxtjs/robots": "^3.0.0",
