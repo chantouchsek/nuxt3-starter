@@ -48,7 +48,7 @@
 		"@pinia/nuxt": "^0.5.1",
 		"@so1ve/eslint-config": "^2.0.0",
 		"@so1ve/prettier-config": "^2.0.0",
-		"@unocss/nuxt": "^0.58.5",
+		"@unocss/nuxt": "^0.58.6",
 		"@vee-validate/nuxt": "^4.12.6",
 		"@vue-macros/nuxt": "^1.9.21",
 		"@vueuse/nuxt": "^10.9.0",
