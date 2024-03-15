@@ -42,7 +42,7 @@
 		"@date-io/dayjs": "^3.0.0",
 		"@nuxt/fonts": "^0.3.0",
 		"@nuxtjs/color-mode": "^3.3.2",
-		"@nuxtjs/i18n": "^8.1.1",
+		"@nuxtjs/i18n": "^8.2.0",
 		"@nuxtjs/robots": "^3.0.0",
 		"@nuxtjs/sitemap": "^5.1.2",
 		"@pinia/nuxt": "^0.5.1",
