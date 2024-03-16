@@ -4,7 +4,7 @@ import auth from './en/auth'
 import common from './en/common'
 
 export default defineI18nLocale(() => ({
-	$vuetify,
-	auth,
-	common,
+  $vuetify,
+  auth,
+  common,
 }))
