@@ -21,7 +21,7 @@ export default defineVuetifyConfiguration({
       flat: true,
       VBtn: { variant: 'outlined', color: '' },
     },
-    VBtn: { color: '' },
+    VBtn: { color: 'primary' },
     VNavigationDrawer: {
       VList: {
         nav: true,

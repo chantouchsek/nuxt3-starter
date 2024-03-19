@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@vue-macros/nuxt',
     '@unocss/nuxt',
+    '@unocss/nuxt',
     '@nuxtjs/color-mode',
     'dayjs-nuxt',
     'vuetify-nuxt-module',
