@@ -1,5 +1,6 @@
-import { defineConfig, presetIcons, presetTypography, presetUno } from 'unocss'
+import { defineConfig } from 'unocss'
+import { presetUseful } from 'unocss-preset-useful'
 
 export default defineConfig({
-  presets: [presetUno(), presetIcons(), presetTypography()],
+  presets: [presetUseful()],
 })

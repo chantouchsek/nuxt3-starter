@@ -35,12 +35,7 @@ const onSubmit = handleSubmit(async ({ email, password }) => {
       <VCardText>
         <VCardTitle>{{ $t('auth.login') }}</VCardTitle>
 
-        <VTextField
-          v-model="email"
-          :error-messages="errors.email"
-          label="Email"
-          type="email"
-        />
+        <VTextField v-model="email" :error-messages="errors.email" label="Email" type="email" />
         <VTextField
           v-model="password"
           :error-messages="errors.password"

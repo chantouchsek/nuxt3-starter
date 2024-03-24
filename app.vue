@@ -7,7 +7,7 @@ provide(
   computed(() => (theme.current.value.dark ? 'dark' : undefined)),
 )
 
-const title = computed(() => meta?.title || matched[0]?.meta?.title || '')
+const title = computed(() => meta?.title ?? matched[0]?.meta?.title ?? '')
 const { locale } = useI18n()
 const appConfig = useAppConfig()
 

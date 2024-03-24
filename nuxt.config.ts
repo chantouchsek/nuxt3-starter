@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     'vuetify-nuxt-module',
     '@nuxt/fonts',
     '@vee-validate/nuxt',
+    '@nuxt/eslint',
   ],
   i18n: {
     locales: [
@@ -66,9 +67,48 @@ export default defineNuxtConfig({
   },
   auth: {
     globalMiddleware: true,
+    redirect: {
+      login: '/login',
+      logout: '/login',
+      callback: '/login',
+      home: '/dashboard',
+    },
     strategies: {
       local: {
         enabled: true,
+        name: 'local',
+        scheme: 'refresh',
+        token: {
+          global: true,
+          required: true,
+          type: 'Bearer',
+          property: 'accessToken',
+          maxAge: 60 * 60 * 24 * 180,
+        },
+        refreshToken: {
+          data: 'refreshToken',
+          property: 'refreshToken',
+          maxAge: 60 * 60 * 24 * 30,
+        },
+        user: {
+          property: 'data',
+          autoFetch: true,
+        },
+        endpoints: {
+          login: {
+            url: 'api/auth/login',
+            method: 'post',
+          },
+          refresh: {
+            url: 'api/auth/refresh',
+            method: 'post',
+          },
+          logout: {
+            url: 'api/auth/logout',
+            method: 'post',
+          },
+          user: { url: 'api/auth/me', method: 'get' },
+        },
       },
     },
   },
@@ -84,6 +124,11 @@ export default defineNuxtConfig({
       Field: 'VeeField',
       FieldArray: 'VeeFieldArray',
       ErrorMessage: 'VeeErrorMessage',
+    },
+  },
+  eslint: {
+    config: {
+      // stylistic: true,
     },
   },
 })

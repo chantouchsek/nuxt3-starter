@@ -1,0 +1,5 @@
+$body-font-family: 'Battambang', 'Poppins', sans-serif !default;
+
+@forward 'vuetify' with (
+  $body-font-family: $body-font-family
+);

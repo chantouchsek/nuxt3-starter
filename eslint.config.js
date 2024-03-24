@@ -1,16 +1,12 @@
-import { so1ve } from '@so1ve/eslint-config'
+import nuxt from './.nuxt/eslint.config.mjs'
 
-export default so1ve(
-  {},
+export default [
+  ...nuxt,
   {
-    ignores: ['pnpm-lock.yaml'],
     rules: {
-      'vue/define-macros-order': [
-        'error',
-        {
-          order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'],
-        },
-      ],
+      'vue/max-attributes-per-line': 'off',
+      'vue/singleline-html-element-content-newline': 'off',
+      '@typescript-eslint/quotes': ['error', 'single', { avoidEscape: true }],
     },
   },
-)
+]

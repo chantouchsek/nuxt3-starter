@@ -8,7 +8,7 @@ const head = useLocaleHead({
 })
 
 const title = computed(() => {
-  const title = (route.meta.title as string) ?? 'Amazing Site'
+  const title = route.meta.title ?? 'Amazing Site'
 
   return te(title) ? t(title) : title
 })
@@ -20,26 +20,21 @@ const title = computed(() => {
       <Head>
         <Title>{{ title }}</Title>
         <template v-for="link in head.link" :key="link.id">
-          <Link
-            :id="link.id"
-            :href="link.href"
-            :hreflang="link.hreflang"
-            :rel="link.rel"
-          />
+          <Link :id="link.id" :href="link.href" :hreflang="link.hreflang" :rel="link.rel" />
         </template>
         <template v-for="meta in head.meta" :key="meta.id">
-          <Meta
-            :id="meta.id"
-            :content="meta.content"
-            :property="meta.property"
-          />
+          <Meta :id="meta.id" :content="meta.content" :property="meta.property" />
         </template>
       </Head>
       <Body>
         <VApp>
-          <VMain>
-            <slot />
-          </VMain>
+          <VLayout>
+            <AppDrawer />
+            <AppBar />
+            <VMain>
+              <slot />
+            </VMain>
+          </VLayout>
         </VApp>
       </Body>
     </Html>
