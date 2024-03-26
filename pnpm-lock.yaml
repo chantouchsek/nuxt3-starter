@@ -123,8 +123,8 @@ devDependencies:
     specifier: ^1.8.27
     version: 1.8.27(typescript@5.4.3)
   vuetify-nuxt-module:
-    specifier: ^0.12.0
-    version: 0.12.0(rollup@4.13.0)(typescript@5.4.3)(vite@5.1.6)(vue@3.4.21)
+    specifier: ^0.13.0
+    version: 0.13.0(rollup@4.13.0)(typescript@5.4.3)(vite@5.1.6)(vue@3.4.21)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -7328,7 +7328,7 @@ packages:
       acorn: 8.11.3
       pathe: 1.1.2
       pkg-types: 1.0.3
-      ufo: 1.5.2
+      ufo: 1.5.3
     dev: true
 
   /mri@1.2.0:
@@ -10520,8 +10520,8 @@ packages:
       typescript: 5.4.3
     dev: true
 
-  /vuetify-nuxt-module@0.12.0(rollup@4.13.0)(typescript@5.4.3)(vite@5.1.6)(vue@3.4.21):
-    resolution: {integrity: sha512-ALpirykO22UpGOaiBP9TW21EiDpCqooxnAB5OFCYRcnBhLQxhwr6UZEIvQTZVafeVVMAhZjVVO1jIVyL5ndw5g==}
+  /vuetify-nuxt-module@0.13.0(rollup@4.13.0)(typescript@5.4.3)(vite@5.1.6)(vue@3.4.21):
+    resolution: {integrity: sha512-4B96hCmHz2wLrEbijkOKqXmX/tDKoaj8faoSbKFgd7XpP77YF/yZxueAw1Qn5a/UhYzUDD90YE63F+FPM80dlg==}
     dependencies:
       '@nuxt/kit': 3.11.1(rollup@4.13.0)
       defu: 6.1.4
@@ -10529,7 +10529,7 @@ packages:
       local-pkg: 0.5.0
       pathe: 1.1.2
       perfect-debounce: 1.0.0
-      ufo: 1.5.2
+      ufo: 1.5.3
       unconfig: 0.3.11
       vite-plugin-vuetify: 2.0.3(vite@5.1.6)(vue@3.4.21)(vuetify@3.5.9)
       vuetify: 3.5.9(typescript@5.4.3)(vite-plugin-vuetify@2.0.3)(vue@3.4.21)
