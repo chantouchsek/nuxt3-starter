@@ -39,7 +39,7 @@
     "@nuxtjs/i18n": "^8.2.0",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^5.1.2",
-    "@pinia/colada": "^0.5.3",
+    "@pinia/colada": "^0.6.0",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.58.6",
     "@vee-validate/nuxt": "^4.12.6",
