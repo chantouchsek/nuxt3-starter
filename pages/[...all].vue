@@ -7,7 +7,9 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <VIcon class="logo mb-4" icon="mdi-view-grid-outline" />
-    <p class="text-h5">404 Not Found</p>
+    <p class="text-h5">
+      404 Not Found
+    </p>
   </div>
 </template>
 

@@ -25,6 +25,8 @@ const name = ref('')
     <VBtn class="mr-2" color="primary" :disabled="!name">
       {{ $t('common.confirm') }}
     </VBtn>
-    <VBtn :disabled="!name">{{ $t('common.cancel') }}</VBtn>
+    <VBtn :disabled="!name">
+      {{ $t('common.cancel') }}
+    </VBtn>
   </div>
 </template>

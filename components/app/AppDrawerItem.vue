@@ -13,7 +13,7 @@ const props = withDefaults(
 )
 const children = computed(() =>
   props.item.children
-    ?.filter((child) => child.meta?.icon)
+    ?.filter(child => child.meta?.icon)
     .sort((a, b) => (Number(a.meta?.drawerIndex) ?? 99) - (Number(b.meta?.drawerIndex) ?? 98)),
 )
 const isItem = computed(() => !props.item.children || (children.value?.length ?? 0) <= 1)
