@@ -6,5 +6,7 @@ definePageMeta({
 </script>
 
 <template>
-  <VContainer fluid>empty page</VContainer>
+  <VContainer fluid>
+    empty page
+  </VContainer>
 </template>

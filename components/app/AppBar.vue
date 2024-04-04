@@ -9,8 +9,8 @@ const toggleDark = useToggle<true, false | null>(isDark)
 const $auth = useAuth()
 const breadcrumbs = computed(() =>
   route.matched
-    .filter((item) => item.meta?.title && item.meta?.breadcrumb !== 'hidden')
-    .map((r) => ({
+    .filter(item => item.meta?.title && item.meta?.breadcrumb !== 'hidden')
+    .map(r => ({
       title: r.meta.title!,
       disabled: r.meta?.breadcrumb === false || r.path === route.path || false,
       to: r.path,
@@ -61,7 +61,9 @@ function onChanged(dark: boolean) {
         </VListItem>
         <VListItem>
           <template #prepend>
-            <VIcon start>mdi-translate</VIcon>
+            <VIcon start>
+              mdi-translate
+            </VIcon>
           </template>
           <VListItemTitle>
             {{ $t('common.title.switchLang') }}
@@ -70,7 +72,9 @@ function onChanged(dark: boolean) {
         <VDivider thickness="1" />
         <VListItem @click="$auth.logout()">
           <template #prepend>
-            <VIcon start>mdi-logout-variant</VIcon>
+            <VIcon start>
+              mdi-logout-variant
+            </VIcon>
           </template>
           <VListItemTitle>
             {{ $t('auth.logout') }}

@@ -114,7 +114,7 @@ export default defineNuxtConfig({
   },
   http: {
     credentials: 'include',
-    debug: process.env.NODE_ENV === 'development',
+    // debug: process.env.NODE_ENV === 'development',
   },
   veeValidate: {
     autoImports: true,
@@ -127,8 +127,12 @@ export default defineNuxtConfig({
     },
   },
   eslint: {
+    checker: true,
     config: {
-      // stylistic: true,
+      stylistic: true,
+      typescript: {
+        strict: true,
+      },
     },
   },
 })
