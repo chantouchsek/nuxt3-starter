@@ -120,8 +120,8 @@ devDependencies:
     specifier: ^1.8.27
     version: 1.8.27(typescript@5.4.3)
   vuetify-nuxt-module:
-    specifier: ^0.13.1
-    version: 0.13.1(rollup@4.14.0)(typescript@5.4.3)(vite@5.2.8)(vue@3.4.21)
+    specifier: ^0.13.2
+    version: 0.13.2(rollup@4.14.0)(typescript@5.4.3)(vite@5.2.8)(vue@3.4.21)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -372,6 +372,7 @@ packages:
   /@babel/highlight@7.24.2:
     resolution: {integrity: sha512-Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==}
     engines: {node: '>=6.9.0'}
+    requiresBuild: true
     dependencies:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
@@ -10834,8 +10835,8 @@ packages:
       typescript: 5.4.3
     dev: true
 
-  /vuetify-nuxt-module@0.13.1(rollup@4.14.0)(typescript@5.4.3)(vite@5.2.8)(vue@3.4.21):
-    resolution: {integrity: sha512-oRzcvyXxgId2hjsqmP0do0us858i+L7KDLY4vn5jNWmnos3uSa3Cq2ckelhBqGnJCb6DF0inIdBFZ7Ztsf58+A==}
+  /vuetify-nuxt-module@0.13.2(rollup@4.14.0)(typescript@5.4.3)(vite@5.2.8)(vue@3.4.21):
+    resolution: {integrity: sha512-GNV4/f9GZu6DYmqDdCqQ9z/r2qxMPmg7ZjWGponGRaGJVZrd9SilsXR9urxRSRyaVamn35TAyKFF++BmHVqFdQ==}
     dependencies:
       '@nuxt/kit': 3.11.1(rollup@4.14.0)
       defu: 6.1.4
