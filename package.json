@@ -36,7 +36,7 @@
     "@nuxtjs/color-mode": "^3.3.3",
     "@nuxtjs/i18n": "^8.3.0",
     "@nuxtjs/robots": "^3.0.0",
-    "@nuxtjs/sitemap": "^5.1.2",
+    "@nuxtjs/sitemap": "^5.1.4",
     "@pinia/colada": "^0.6.0",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.58.9",
