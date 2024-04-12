@@ -33,7 +33,7 @@
     "@nuxt-alt/http": "^1.7.10",
     "@nuxt/eslint": "0.3.0-beta.9",
     "@nuxt/fonts": "^0.6.1",
-    "@nuxtjs/color-mode": "^3.3.3",
+    "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/i18n": "^8.3.0",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^5.1.2",
