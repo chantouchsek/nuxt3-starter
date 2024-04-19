@@ -31,7 +31,7 @@
     "@date-io/dayjs": "^3.0.0",
     "@nuxt-alt/auth": "^3.1.6",
     "@nuxt-alt/http": "^1.7.10",
-    "@nuxt/eslint": "0.3.0-beta.9",
+    "@nuxt/eslint": "0.3.8",
     "@nuxt/fonts": "^0.6.1",
     "@nuxtjs/color-mode": "^3.3.3",
     "@nuxtjs/i18n": "^8.3.0",
