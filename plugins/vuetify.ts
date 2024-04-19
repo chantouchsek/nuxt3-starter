@@ -21,10 +21,11 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.hook('vuetify:configuration', ({ vuetifyOptions }) => {
     vuetifyOptions.icons!.sets!.custom = custom
     const primary = useLocalStorage('theme-primary', '#1697f6').value
+    const theme = { colors: { primary } }
     vuetifyOptions.theme = {
       themes: {
-        light: { colors: { primary } },
-        dark: { colors: { primary } },
+        light: theme,
+        dark: theme,
       },
     }
   })

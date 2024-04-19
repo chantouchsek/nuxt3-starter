@@ -12,7 +12,7 @@ const drawer = computed({
 const rail = computed(() => !drawerState.value && !mobile.value)
 
 const routes = router.getRoutes().filter(r => r.path.lastIndexOf('/') === 0)
-routes.sort((a, b) => (Number(a.meta?.drawerIndex) ?? 99) - (Number(b.meta?.drawerIndex) ?? 98))
+routes.sort((a, b) => (a.meta?.drawerIndex ?? 99) - (b.meta?.drawerIndex ?? 98))
 
 nextTick(() => {
   drawerState.value = lgAndUp.value && width.value !== 1280
