@@ -8,4 +8,6 @@ export default withNuxt({
   rules: {
     '@stylistic/quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
+}).append({
+  ignores: ['pnpm-lock.yaml', 'yarn.lock', 'package-lock.json'],
 })
