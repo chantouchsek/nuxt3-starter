@@ -24,7 +24,6 @@ export default defineNuxtConfig({
     '@vue-macros/nuxt',
     '@unocss/nuxt',
     '@unocss/nuxt',
-    '@nuxtjs/color-mode',
     'dayjs-nuxt',
     'vuetify-nuxt-module',
     '@nuxt/fonts',
@@ -63,6 +62,7 @@ export default defineNuxtConfig({
   vuetify: {
     moduleOptions: {
       prefixComposables: true,
+      styles: { configFile: 'assets/scss/vuetify/settings.scss' },
     },
   },
   auth: {
@@ -134,5 +134,15 @@ export default defineNuxtConfig({
         strict: true,
       },
     },
+  },
+  fonts: {
+    families: [
+      {
+        name: 'Battambang',
+        provider: 'google',
+        weights: [100, 300, 400, 700, 900],
+      },
+    ],
+    provider: 'google',
   },
 })

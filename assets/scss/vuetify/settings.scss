@@ -1,4 +1,7 @@
+$body-font-family: 'Battambang', 'Poppins', sans-serif !important;
+
 @forward 'vuetify/settings' with (
+  $body-font-family: $body-font-family,
   $utilities: false,
   $color-pack: false
 );

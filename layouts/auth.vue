@@ -25,7 +25,7 @@ const title = computed(() => t((route.meta.title as string) || 'app.name'))
     <Body>
       <VApp>
         <VMain>
-          <VContainer class="fill-height" fluid>
+          <VContainer class="fill-height h-full" fluid>
             <VLayout class="items-center justify-center w-full" full-height>
               <slot />
             </VLayout>

@@ -1,7 +1,7 @@
 {
   "name": "@chantouchsek/amazing-admin",
   "private": true,
-  "packageManager": "pnpm@9.0.4",
+  "packageManager": "pnpm@9.0.5",
   "type": "module",
   "engines": {
     "node": ">=18",
@@ -33,7 +33,6 @@
     "@nuxt-alt/http": "^1.7.10",
     "@nuxt/eslint": "0.3.8",
     "@nuxt/fonts": "^0.6.1",
-    "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/i18n": "^8.3.0",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/sitemap": "^5.1.4",
@@ -45,7 +44,7 @@
     "@vue-macros/nuxt": "^1.9.30",
     "@vueuse/nuxt": "^10.9.0",
     "dayjs-nuxt": "^2.1.9",
-    "eslint": "^9.0.0",
+    "eslint": "^9.1.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nuxt": "^3.11.2",
@@ -65,6 +64,6 @@
     "vue-router": "^4.3.2",
     "vue-tsc": "^1.8.27",
     "vuetify-nuxt-module": "^0.13.2",
-    "zod": "^3.22.5"
+    "zod": "^3.23.0"
   }
 }
