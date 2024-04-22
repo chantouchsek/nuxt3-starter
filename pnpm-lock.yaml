@@ -2511,8 +2511,8 @@ packages:
     peerDependencies:
       postcss: ^8.0.9
 
-  css-functions-list@3.2.1:
-    resolution: {integrity: sha512-Nj5YcaGgBtuUmn1D7oHqPW0c9iui7xsTsj5lIX8ZgevdfhmjFfKB3r8moHJtNJnctnYXJyYX5I1pp90HM4TPgQ==}
+  css-functions-list@3.2.2:
+    resolution: {integrity: sha512-c+N0v6wbKVxTu5gOBBFkr9BEdBWaqqjQeiJ8QvSRIJOf+UxlJh930m8e6/WNeODIK0mYLFkoONrnj16i2EcvfQ==}
     engines: {node: '>=12 || >=16'}
 
   css-select@5.1.0:
@@ -5085,8 +5085,8 @@ packages:
     resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
     engines: {node: '>=14.16'}
 
-  type-fest@4.15.0:
-    resolution: {integrity: sha512-tB9lu0pQpX5KJq54g+oHOLumOx+pMep4RaM6liXh2PKmVRFF+/vAtUP0ZaJ0kOySfVNjF6doBWPHhBhISKdlIA==}
+  type-fest@4.16.0:
+    resolution: {integrity: sha512-z7Rf5PXxIhbI6eJBTwdqe5bO02nUUmctq4WqviFSstBAWV0YNtEQRhEnZw73WJ8sZOqgFG6Jdl8gYZu7NBJZnA==}
     engines: {node: '>=16'}
 
   type-level-regexp@0.1.17:
@@ -7812,7 +7812,7 @@ snapshots:
 
   '@vee-validate/zod@4.12.6(vue@3.4.23(typescript@5.4.5))':
     dependencies:
-      type-fest: 4.15.0
+      type-fest: 4.16.0
       vee-validate: 4.12.6(vue@3.4.23(typescript@5.4.5))
       zod: 3.23.0
     transitivePeerDependencies:
@@ -8926,7 +8926,7 @@ snapshots:
     dependencies:
       postcss: 8.4.38
 
-  css-functions-list@3.2.1: {}
+  css-functions-list@3.2.2: {}
 
   css-select@5.1.0:
     dependencies:
@@ -11676,7 +11676,7 @@ snapshots:
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 9.0.0(typescript@5.4.5)
-      css-functions-list: 3.2.1
+      css-functions-list: 3.2.2
       css-tree: 2.3.1
       debug: 4.3.4
       fast-glob: 3.3.2
@@ -11863,7 +11863,7 @@ snapshots:
 
   type-fest@3.13.1: {}
 
-  type-fest@4.15.0: {}
+  type-fest@4.16.0: {}
 
   type-level-regexp@0.1.17: {}
 
@@ -12215,7 +12215,7 @@ snapshots:
   vee-validate@4.12.6(vue@3.4.23(typescript@5.4.5)):
     dependencies:
       '@vue/devtools-api': 6.6.1
-      type-fest: 4.15.0
+      type-fest: 4.16.0
       vue: 3.4.23(typescript@5.4.5)
 
   vite-hot-client@0.2.3(vite@5.2.10(@types/node@20.12.7)(sass@1.75.0)(terser@5.30.3)):
