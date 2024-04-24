@@ -51,7 +51,7 @@
     "pinia": "^2.1.7",
     "sass": "^1.75.0",
     "sass-loader": "^14.2.1",
-    "stylelint": "^16.3.1",
+    "stylelint": "^16.4.0",
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.4.5",
