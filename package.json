@@ -44,7 +44,7 @@
     "@vue-macros/nuxt": "^1.9.30",
     "@vueuse/nuxt": "^10.9.0",
     "dayjs-nuxt": "^2.1.9",
-    "eslint": "^9.1.0",
+    "eslint": "^9.2.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nuxt": "^3.11.2",
